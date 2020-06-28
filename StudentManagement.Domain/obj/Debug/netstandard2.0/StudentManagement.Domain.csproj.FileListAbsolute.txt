@@ -1,0 +1,9 @@
+C:\Users\Satya\source\repos\StudentManagement\StudentManagement.Domain\bin\Debug\netstandard2.0\StudentManagement.Domain.deps.json
+C:\Users\Satya\source\repos\StudentManagement\StudentManagement.Domain\bin\Debug\netstandard2.0\StudentManagement.Domain.dll
+C:\Users\Satya\source\repos\StudentManagement\StudentManagement.Domain\obj\Debug\netstandard2.0\StudentManagement.Domain.csprojAssemblyReference.cache
+C:\Users\Satya\source\repos\StudentManagement\StudentManagement.Domain\obj\Debug\netstandard2.0\StudentManagement.Domain.AssemblyInfoInputs.cache
+C:\Users\Satya\source\repos\StudentManagement\StudentManagement.Domain\obj\Debug\netstandard2.0\StudentManagement.Domain.AssemblyInfo.cs
+C:\Users\Satya\source\repos\StudentManagement\StudentManagement.Domain\bin\Debug\netstandard2.0\StudentManagement.Domain.pdb
+C:\Users\Satya\source\repos\StudentManagement\StudentManagement.Domain\obj\Debug\netstandard2.0\StudentManagement.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Satya\source\repos\StudentManagement\StudentManagement.Domain\obj\Debug\netstandard2.0\StudentManagement.Domain.dll
+C:\Users\Satya\source\repos\StudentManagement\StudentManagement.Domain\obj\Debug\netstandard2.0\StudentManagement.Domain.pdb
