@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Satya\\source\\repos\\StudentManagement\\StudentManagement.API\\StudentManagement.API.csproj": {}
+    "C:\\Users\\sbiswal\\source\\repos\\StudentManagementDemo\\StudentManagement.API\\StudentManagement.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Satya\\source\\repos\\StudentManagement\\StudentManagement.API\\StudentManagement.API.csproj": {
+    "C:\\Users\\sbiswal\\source\\repos\\StudentManagementDemo\\StudentManagement.API\\StudentManagement.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Satya\\source\\repos\\StudentManagement\\StudentManagement.API\\StudentManagement.API.csproj",
+        "projectUniqueName": "C:\\Users\\sbiswal\\source\\repos\\StudentManagementDemo\\StudentManagement.API\\StudentManagement.API.csproj",
         "projectName": "StudentManagement.API",
-        "projectPath": "C:\\Users\\Satya\\source\\repos\\StudentManagement\\StudentManagement.API\\StudentManagement.API.csproj",
-        "packagesPath": "C:\\Users\\Satya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Satya\\source\\repos\\StudentManagement\\StudentManagement.API\\obj\\",
+        "projectPath": "C:\\Users\\sbiswal\\source\\repos\\StudentManagementDemo\\StudentManagement.API\\StudentManagement.API.csproj",
+        "packagesPath": "C:\\Users\\sbiswal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sbiswal\\source\\repos\\StudentManagementDemo\\StudentManagement.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Satya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sbiswal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,13 +25,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\TFS\\Libs\\ediFabric\\v9.8.1\\EdiFabric.Plugins\\NuGet": {},
+          "C:\\Users\\sbiswal\\Documents\\NugetLocalFeed": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Satya\\source\\repos\\StudentManagement\\StudentManagement.Domain\\StudentManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\Satya\\source\\repos\\StudentManagement\\StudentManagement.Domain\\StudentManagement.Domain.csproj"
+              "C:\\Users\\sbiswal\\source\\repos\\StudentManagementDemo\\StudentManagement.Domain\\StudentManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\sbiswal\\source\\repos\\StudentManagementDemo\\StudentManagement.Domain\\StudentManagement.Domain.csproj"
               }
             }
           }
@@ -78,24 +80,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Satya\\source\\repos\\StudentManagement\\StudentManagement.Domain\\StudentManagement.Domain.csproj": {
+    "C:\\Users\\sbiswal\\source\\repos\\StudentManagementDemo\\StudentManagement.Domain\\StudentManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Satya\\source\\repos\\StudentManagement\\StudentManagement.Domain\\StudentManagement.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\sbiswal\\source\\repos\\StudentManagementDemo\\StudentManagement.Domain\\StudentManagement.Domain.csproj",
         "projectName": "StudentManagement.Domain",
-        "projectPath": "C:\\Users\\Satya\\source\\repos\\StudentManagement\\StudentManagement.Domain\\StudentManagement.Domain.csproj",
-        "packagesPath": "C:\\Users\\Satya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Satya\\source\\repos\\StudentManagement\\StudentManagement.Domain\\obj\\",
+        "projectPath": "C:\\Users\\sbiswal\\source\\repos\\StudentManagementDemo\\StudentManagement.Domain\\StudentManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\sbiswal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sbiswal\\source\\repos\\StudentManagementDemo\\StudentManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Satya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sbiswal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -103,6 +105,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\TFS\\Libs\\ediFabric\\v9.8.1\\EdiFabric.Plugins\\NuGet": {},
+          "C:\\Users\\sbiswal\\Documents\\NugetLocalFeed": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -140,7 +144,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
