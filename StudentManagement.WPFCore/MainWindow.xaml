@@ -18,11 +18,8 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="*"/>
-
         </Grid.ColumnDefinitions>
-        <DataGrid>
-
-        </DataGrid>
+       
         <Grid Grid.Column="0" Margin="5 0 5 0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
@@ -113,14 +110,49 @@
         Style="{StaticResource MaterialDesignFloatingActionButton}" 
                     Height="32" 
                     Width="32"
-                    Background="Transparent"
-                    Foreground="Orange"
                     HorizontalAlignment="Right"
+                    Command="{Binding SaveCommand}"
                     VerticalAlignment="Center">
                 <materialDesign:PackIcon Kind="ContentSave">
 
                 </materialDesign:PackIcon>
             </Button>
         </Grid>
+        <DataGrid Grid.Column="1"
+                  ItemsSource="{Binding AllStudents}" 
+                  CanUserAddRows="False"
+                  AutoGenerateColumns="False">
+            <DataGrid.Columns>
+            <DataGridTextColumn Header = "FirstName" 
+                                Binding = "{Binding StudentFirstName}" />
+            <DataGridTextColumn Header = "Last Name" 
+                                Binding = "{Binding StudentLastName}" />
+            <DataGridTextColumn Header = "Student DOB" 
+                                Binding = "{Binding StudentDOB}"/>
+            <DataGridTextColumn Header = "Student Address" 
+                                Binding = "{Binding StudentAddress}"/>
+                <DataGridTemplateColumn Header="View">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button x:Name="SaveButton" 
+                    Grid.Row="8"
+                    Grid.Column="1"
+                    Style="{StaticResource MaterialDesignFloatingActionButton}" 
+                    Height="32" 
+                    Width="32"
+                     
+                    
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Center">
+                                <materialDesign:PackIcon Kind="DotsVertical"/>
+
+
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+
+        </DataGrid>
     </Grid>
 </Window>

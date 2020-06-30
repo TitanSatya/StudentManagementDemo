@@ -1,4 +1,7 @@
-﻿using System;
+﻿using StudentManagement.WPFCore.DataProvider;
+using StudentManagement.WPFCore.ViewModels;
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +23,14 @@ namespace StudentManagement.WPFCore
     /// </summary>
     public partial class MainWindow : Window
     {
+        IStudentDataProvider studentAPIDataProvider;
+        MainViewModel vm;
         public MainWindow()
         {
             InitializeComponent();
+            studentAPIDataProvider = new StudentAPIDataProvider();
+            vm = new MainViewModel(studentAPIDataProvider);
+            DataContext = vm;
         }
     }
 }
