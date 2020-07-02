@@ -19,7 +19,7 @@
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-       
+
         <Grid Grid.Column="0" Margin="5 0 5 0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
@@ -119,19 +119,21 @@
             </Button>
         </Grid>
         <DataGrid Grid.Column="1"
+                  x:Name="StudentDatagrid"
                   ItemsSource="{Binding AllStudents}" 
                   CanUserAddRows="False"
+                  SelectedItem="{Binding SelectedStudent, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
                   AutoGenerateColumns="False">
             <DataGrid.Columns>
-            <DataGridTextColumn Header = "FirstName" 
+                <DataGridTextColumn Header = "FirstName" 
                                 Binding = "{Binding StudentFirstName}" />
-            <DataGridTextColumn Header = "Last Name" 
+                <DataGridTextColumn Header = "Last Name" 
                                 Binding = "{Binding StudentLastName}" />
-            <DataGridTextColumn Header = "Student DOB" 
+                <DataGridTextColumn Header = "Student DOB" 
                                 Binding = "{Binding StudentDOB}"/>
-            <DataGridTextColumn Header = "Student Address" 
+                <DataGridTextColumn Header = "Student Address" 
                                 Binding = "{Binding StudentAddress}"/>
-                <DataGridTemplateColumn Header="View">
+                <DataGridTemplateColumn Header="Delete">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <Button x:Name="SaveButton" 
@@ -140,13 +142,12 @@
                     Style="{StaticResource MaterialDesignFloatingActionButton}" 
                     Height="32" 
                     Width="32"
-                     
-                    
+                    Background="Red"
+                    BorderBrush="Red"
                     HorizontalAlignment="Right"
+                    Command="{Binding DataContext.DeleteCommand, ElementName=StudentDatagrid}" 
                     VerticalAlignment="Center">
-                                <materialDesign:PackIcon Kind="DotsVertical"/>
-
-
+                                <materialDesign:PackIcon Kind="Delete"/>
                             </Button>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>

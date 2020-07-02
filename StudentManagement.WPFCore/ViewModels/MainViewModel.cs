@@ -1,41 +1,54 @@
 ﻿using StudentManagement.Domain;
 using StudentManagement.WPFCore.DataProvider;
 using StudentManagement.WPFCore.Helpers;
+
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Linq;
 using System.Runtime.CompilerServices;
-using System.Text;
+using System.Windows;
 using System.Windows.Input;
-using System.Windows.Media.Imaging;
-
+[assembly: InternalsVisibleTo("StudentManagement.WPFCore.Tests")]
 namespace StudentManagement.WPFCore.ViewModels
 {
     public class MainViewModel : INotifyPropertyChanged
     {
         #region Ctor
         private readonly IStudentDataProvider _studentDataProvider;
+        
         public MainViewModel(IStudentDataProvider studentDataProvider)
         {
             _studentDataProvider = studentDataProvider;
             GetAllStudents();
             SaveCommand = new RelayCommand(ExecuteSaveCommand, CanExecuteSaveCommand);
+            DeleteCommand = new RelayCommand(ExecuteDeleteCommand, CanExecuteDeleteCommand);
+           
         }
-
-      
-
-
 
         /// <summary>
         /// Get All students through IStudentDataProvider
         /// </summary>
-        private void GetAllStudents()
+        internal void GetAllStudents() => AllStudents = new ObservableCollection<Student>(_studentDataProvider.GetAllStudents());
+        internal void GetStudent()
         {
-            AllStudents = new ObservableCollection<Student>( _studentDataProvider.GetAllStudents());
+            SelectedStudent = _studentDataProvider.GetStudent(StudentId);
         }
         #endregion
         #region Properties
+        private Guid _StudentId;
+
+        public Guid StudentId
+        {
+            get => _StudentId;
+            set
+            {
+                _StudentId = value;
+                OnPropertyChanged(nameof(StudentId));
+            }
+        }
+
         private string _StudentFirstName;
 
         public string StudentFirstName
@@ -92,26 +105,30 @@ namespace StudentManagement.WPFCore.ViewModels
                 OnPropertyChanged(nameof(AllStudents));
             }
         }
-        public ICommand  SaveCommand { get;private  set; }
+        public ICommand SaveCommand { get; private set; }
+        public ICommand DeleteCommand { get; private set; }
+        private Student _SelectedStudent;
+
+        public Student SelectedStudent
+        {
+            get => _SelectedStudent;
+            set
+            {
+                _SelectedStudent = value;
+                OnPropertyChanged(nameof(SelectedStudent));
+            }
+        }
        
 
-        #endregion
-        #region INotifyPropertyChanged Implementation
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        protected void OnPropertyChanged([CallerMemberName] string name = null)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
-        }
         #endregion
         #region Public Methods
         public bool CanExecuteSaveCommand(object arg)
         {
-            if (String.IsNullOrEmpty(StudentFirstName))
+            if (string.IsNullOrEmpty(StudentFirstName))
             {
                 return false;
             }
-            else if(StudentFirstName.Length >50)
+            else if (StudentFirstName.Length > 50)
             {
                 return false;
             }
@@ -127,32 +144,34 @@ namespace StudentManagement.WPFCore.ViewModels
             {
                 return false;
             }
-            else if(StudentDOB >= DateTime.Today)
+            else if (StudentDOB >= DateTime.Today)
             {
                 return false;
             }
-            else if(string.IsNullOrEmpty(StudentAddress))
+            else if (string.IsNullOrEmpty(StudentAddress))
             {
                 return false;
             }
-            else if (StudentAddress.Length >300)
+            else if (StudentAddress.Length > 300)
             {
                 return false;
             }
             else
-            return true;
-
-
+            {
+                return true;
+            }
         }
-        private void ExecuteSaveCommand(object obj)
+        internal void ExecuteSaveCommand(object obj)
         {
-            Student student = new Student();
-            student.StudentFirstName = StudentFirstName;
-            student.StudentLastName = StudentLastName;
-            student.StudentDOB = StudentDOB;
-            student.StudentAddress = StudentAddress;
-            Guid id =_studentDataProvider.SaveStudentData(student);
-            if(id!= Guid.Empty)
+            Student student = new Student
+            {
+                StudentFirstName = StudentFirstName,
+                StudentLastName = StudentLastName,
+                StudentDOB = StudentDOB,
+                StudentAddress = StudentAddress
+            };
+            Guid id = _studentDataProvider.SaveStudentData(student);
+            if (id != Guid.Empty)
             {
                 student.StudentId = id;
             }
@@ -160,13 +179,39 @@ namespace StudentManagement.WPFCore.ViewModels
             ClearAllFields();
         }
 
-        public void ClearAllFields()
+        internal void ClearAllFields()
         {
             StudentFirstName = string.Empty;
             StudentLastName = string.Empty;
             StudentDOB = DateTime.Now;
             StudentAddress = string.Empty;
         }
+        internal bool CanExecuteDeleteCommand(object arg)
+        {
+            return (SelectedStudent != null);
+        }
+
+        internal void ExecuteDeleteCommand(object obj)
+        {
+           //var result= MessageBox.Show($"Do you really want to delete {SelectedStudent.StudentFirstName} {SelectedStudent.StudentLastName} ?",
+           //                 "Delete Student",
+           //                 MessageBoxButton.YesNo);
+            //if (result == MessageBoxResult.Yes)
+            //{
+                _studentDataProvider.DeleteStudentData(SelectedStudent.StudentId);
+                AllStudents.Remove(AllStudents.ToList().First(x => x.StudentId == SelectedStudent.StudentId));
+                SelectedStudent = null;
+            //}
+        }
+        #endregion
+        #region INotifyPropertyChanged Implementation
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        protected void OnPropertyChanged([CallerMemberName] string name = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+        }
+
         #endregion
     }
 }

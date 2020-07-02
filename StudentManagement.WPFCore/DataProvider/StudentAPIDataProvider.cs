@@ -75,7 +75,7 @@ namespace StudentManagement.WPFCore.DataProvider
             Guid studentId = Guid.Empty;
            if(response.IsSuccessful)
             {
-                Guid.TryParse(response.Content, out studentId);
+                Guid.TryParse(JsonConvert.DeserializeObject<string>(response.Content), out studentId);
             }
             return studentId;
         }

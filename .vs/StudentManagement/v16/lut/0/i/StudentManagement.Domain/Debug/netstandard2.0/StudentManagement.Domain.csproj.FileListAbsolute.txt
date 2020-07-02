@@ -1,0 +1,7 @@
+C:\Users\satyaranjanbiswal\Desktop\WindowsDev\StudentManagementDemo\StudentManagementDemo\.vs\StudentManagement\v16\lut\0\b\StudentManagement.Domain\Debug\netstandard2.0\StudentManagement.Domain.deps.json
+C:\Users\satyaranjanbiswal\Desktop\WindowsDev\StudentManagementDemo\StudentManagementDemo\.vs\StudentManagement\v16\lut\0\b\StudentManagement.Domain\Debug\netstandard2.0\StudentManagement.Domain.dll
+C:\Users\satyaranjanbiswal\Desktop\WindowsDev\StudentManagementDemo\StudentManagementDemo\.vs\StudentManagement\v16\lut\0\i\StudentManagement.Domain\Debug\netstandard2.0\StudentManagement.Domain.csprojAssemblyReference.cache
+C:\Users\satyaranjanbiswal\Desktop\WindowsDev\StudentManagementDemo\StudentManagementDemo\.vs\StudentManagement\v16\lut\0\i\StudentManagement.Domain\Debug\netstandard2.0\StudentManagement.Domain.AssemblyInfoInputs.cache
+C:\Users\satyaranjanbiswal\Desktop\WindowsDev\StudentManagementDemo\StudentManagementDemo\.vs\StudentManagement\v16\lut\0\i\StudentManagement.Domain\Debug\netstandard2.0\StudentManagement.Domain.AssemblyInfo.cs
+C:\Users\satyaranjanbiswal\Desktop\WindowsDev\StudentManagementDemo\StudentManagementDemo\.vs\StudentManagement\v16\lut\0\i\StudentManagement.Domain\Debug\netstandard2.0\StudentManagement.Domain.csproj.CopyComplete
+C:\Users\satyaranjanbiswal\Desktop\WindowsDev\StudentManagementDemo\StudentManagementDemo\.vs\StudentManagement\v16\lut\0\i\StudentManagement.Domain\Debug\netstandard2.0\StudentManagement.Domain.dll

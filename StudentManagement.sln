@@ -12,7 +12,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{98661A81-7
 		Readme.md = Readme.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagement.WPFCore", "StudentManagement.WPFCore\StudentManagement.WPFCore.csproj", "{B0245487-B432-4F95-AD51-9D1C904197D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentManagement.WPFCore", "StudentManagement.WPFCore\StudentManagement.WPFCore.csproj", "{B0245487-B432-4F95-AD51-9D1C904197D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagement.WPFCore.Tests", "StudentManagement.WPFCore.Tests\StudentManagement.WPFCore.Tests.csproj", "{94EED81D-510E-4443-834C-0366FF62A71B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{B0245487-B432-4F95-AD51-9D1C904197D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0245487-B432-4F95-AD51-9D1C904197D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0245487-B432-4F95-AD51-9D1C904197D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94EED81D-510E-4443-834C-0366FF62A71B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94EED81D-510E-4443-834C-0366FF62A71B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94EED81D-510E-4443-834C-0366FF62A71B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94EED81D-510E-4443-834C-0366FF62A71B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

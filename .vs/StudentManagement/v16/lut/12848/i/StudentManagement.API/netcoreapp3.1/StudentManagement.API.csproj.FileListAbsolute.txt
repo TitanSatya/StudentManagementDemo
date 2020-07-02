@@ -1,0 +1,17 @@
+C:\Users\satyaranjanbiswal\Desktop\WindowsDev\StudentManagementDemo\StudentManagementDemo\.vs\StudentManagement\v16\lut\0\b\StudentManagement.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\satyaranjanbiswal\Desktop\WindowsDev\StudentManagementDemo\StudentManagementDemo\.vs\StudentManagement\v16\lut\0\b\StudentManagement.API\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\satyaranjanbiswal\Desktop\WindowsDev\StudentManagementDemo\StudentManagementDemo\.vs\StudentManagement\v16\lut\0\b\StudentManagement.API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\satyaranjanbiswal\Desktop\WindowsDev\StudentManagementDemo\StudentManagementDemo\.vs\StudentManagement\v16\lut\0\b\StudentManagement.API\bin\Debug\netcoreapp3.1\StudentManagement.API.exe
+C:\Users\satyaranjanbiswal\Desktop\WindowsDev\StudentManagementDemo\StudentManagementDemo\.vs\StudentManagement\v16\lut\0\b\StudentManagement.API\bin\Debug\netcoreapp3.1\StudentManagement.API.deps.json
+C:\Users\satyaranjanbiswal\Desktop\WindowsDev\StudentManagementDemo\StudentManagementDemo\.vs\StudentManagement\v16\lut\0\b\StudentManagement.API\bin\Debug\netcoreapp3.1\StudentManagement.API.runtimeconfig.json
+C:\Users\satyaranjanbiswal\Desktop\WindowsDev\StudentManagementDemo\StudentManagementDemo\.vs\StudentManagement\v16\lut\0\b\StudentManagement.API\bin\Debug\netcoreapp3.1\StudentManagement.API.runtimeconfig.dev.json
+C:\Users\satyaranjanbiswal\Desktop\WindowsDev\StudentManagementDemo\StudentManagementDemo\.vs\StudentManagement\v16\lut\0\b\StudentManagement.API\bin\Debug\netcoreapp3.1\StudentManagement.API.dll
+C:\Users\satyaranjanbiswal\Desktop\WindowsDev\StudentManagementDemo\StudentManagementDemo\.vs\StudentManagement\v16\lut\0\i\StudentManagement.API\netcoreapp3.1\StudentManagement.API.csprojAssemblyReference.cache
+C:\Users\satyaranjanbiswal\Desktop\WindowsDev\StudentManagementDemo\StudentManagementDemo\.vs\StudentManagement\v16\lut\0\i\StudentManagement.API\netcoreapp3.1\StudentManagement.API.AssemblyInfoInputs.cache
+C:\Users\satyaranjanbiswal\Desktop\WindowsDev\StudentManagementDemo\StudentManagementDemo\.vs\StudentManagement\v16\lut\0\i\StudentManagement.API\netcoreapp3.1\StudentManagement.API.AssemblyInfo.cs
+C:\Users\satyaranjanbiswal\Desktop\WindowsDev\StudentManagementDemo\StudentManagementDemo\.vs\StudentManagement\v16\lut\0\i\StudentManagement.API\netcoreapp3.1\StudentManagement.API.RazorTargetAssemblyInfo.cache
+C:\Users\satyaranjanbiswal\Desktop\WindowsDev\StudentManagementDemo\StudentManagementDemo\.vs\StudentManagement\v16\lut\0\i\StudentManagement.API\netcoreapp3.1\StudentManagement.API.csproj.CopyComplete
+C:\Users\satyaranjanbiswal\Desktop\WindowsDev\StudentManagementDemo\StudentManagementDemo\.vs\StudentManagement\v16\lut\0\i\StudentManagement.API\netcoreapp3.1\staticwebassets\StudentManagement.API.StaticWebAssets.Manifest.cache
+C:\Users\satyaranjanbiswal\Desktop\WindowsDev\StudentManagementDemo\StudentManagementDemo\.vs\StudentManagement\v16\lut\0\i\StudentManagement.API\netcoreapp3.1\staticwebassets\StudentManagement.API.StaticWebAssets.xml
+C:\Users\satyaranjanbiswal\Desktop\WindowsDev\StudentManagementDemo\StudentManagementDemo\.vs\StudentManagement\v16\lut\0\i\StudentManagement.API\netcoreapp3.1\StudentManagement.API.dll
+C:\Users\satyaranjanbiswal\Desktop\WindowsDev\StudentManagementDemo\StudentManagementDemo\.vs\StudentManagement\v16\lut\0\i\StudentManagement.API\netcoreapp3.1\StudentManagement.API.genruntimeconfig.cache
