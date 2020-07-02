@@ -1,4 +1,4 @@
-# Student Management Docs
+# Student Management Project Docs
 This is a **Demo** app for unit testing. The project plan is to create an API.
 Then following clients will be created 
  - Windows Client (WPF).
