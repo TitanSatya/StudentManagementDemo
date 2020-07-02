@@ -65,7 +65,7 @@ namespace StudentManagement.WPFCore.DataProvider
         {
             var client = new RestClient(baseURL);
             var request = new RestRequest(Method.POST);
-            request.AddHeader("Accept", "application/json");
+            request.AddHeader("Content-Type", "application/json");
             var body = JsonConvert.SerializeObject(student);
             if (!string.IsNullOrEmpty(body))
             {

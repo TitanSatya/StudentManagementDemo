@@ -275,23 +275,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Satya\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\satyaranjanbiswal\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Satya\\source\\repos\\StudentManagement\\StudentManagement.WPFCore\\StudentManagement.WPFCore.csproj",
+      "projectUniqueName": "C:\\Users\\satyaranjanbiswal\\Desktop\\WindowsDev\\StudentManagementDemo\\StudentManagementDemo\\StudentManagement.WPFCore\\StudentManagement.WPFCore.csproj",
       "projectName": "StudentManagement.WPFCore",
-      "projectPath": "C:\\Users\\Satya\\source\\repos\\StudentManagement\\StudentManagement.WPFCore\\StudentManagement.WPFCore.csproj",
-      "packagesPath": "C:\\Users\\Satya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Satya\\source\\repos\\StudentManagement\\StudentManagement.WPFCore\\obj\\",
+      "projectPath": "C:\\Users\\satyaranjanbiswal\\Desktop\\WindowsDev\\StudentManagementDemo\\StudentManagementDemo\\StudentManagement.WPFCore\\StudentManagement.WPFCore.csproj",
+      "packagesPath": "C:\\Users\\satyaranjanbiswal\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\satyaranjanbiswal\\Desktop\\WindowsDev\\StudentManagementDemo\\StudentManagementDemo\\StudentManagement.WPFCore\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Satya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\satyaranjanbiswal\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -304,8 +300,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Satya\\source\\repos\\StudentManagement\\StudentManagement.Domain\\StudentManagement.Domain.csproj": {
-              "projectPath": "C:\\Users\\Satya\\source\\repos\\StudentManagement\\StudentManagement.Domain\\StudentManagement.Domain.csproj"
+            "C:\\Users\\satyaranjanbiswal\\Desktop\\WindowsDev\\StudentManagementDemo\\StudentManagementDemo\\StudentManagement.Domain\\StudentManagement.Domain.csproj": {
+              "projectPath": "C:\\Users\\satyaranjanbiswal\\Desktop\\WindowsDev\\StudentManagementDemo\\StudentManagementDemo\\StudentManagement.Domain\\StudentManagement.Domain.csproj"
             }
           }
         }
@@ -350,7 +346,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

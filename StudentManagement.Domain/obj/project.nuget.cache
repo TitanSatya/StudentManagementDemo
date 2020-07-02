@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "xZ+m0/6sW7rwi426VAtLsOsmC3Syx+RWqKdkzsQXgWMKETwasv5w9tZ35AtDAsSohQQIv2S9PO5ydkzSjoZ22g==",
+  "dgSpecHash": "K/EJOpiyapc15N8HX1b2xMBPYyETT2agP4aaS42hZSKm1ZzgP50s5MbNj7AO5rq0OQ6NEgOlihvVig+Yo2jlFw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Satya\\source\\repos\\StudentManagement\\StudentManagement.Domain\\StudentManagement.Domain.csproj",
+  "projectFilePath": "C:\\Users\\satyaranjanbiswal\\Desktop\\WindowsDev\\StudentManagementDemo\\StudentManagementDemo\\StudentManagement.Domain\\StudentManagement.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Satya\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\Satya\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+    "C:\\Users\\satyaranjanbiswal\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\satyaranjanbiswal\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\satyaranjanbiswal\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

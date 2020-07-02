@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "veje9EFWcv15AOnh8gUPeJ08N65QLidzQF7vCbmaQl+H4wV3PYsxMMRvAgR7i4DfVYnIqlmVVanKs9h7VW8Nmg==",
+  "dgSpecHash": "s2Xi49KUEJJ4FBrIsXFqOtK/hpjM2ZE6Ts8LpcZ4U0kzKaJQ5tcZBhfdre2p6dkIdZutD33QZaNtP5pu84UD9A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Satya\\source\\repos\\StudentManagement\\StudentManagement.WPFCore\\StudentManagement.WPFCore.csproj",
+  "projectFilePath": "C:\\Users\\satyaranjanbiswal\\Desktop\\WindowsDev\\StudentManagementDemo\\StudentManagementDemo\\StudentManagement.WPFCore\\StudentManagement.WPFCore.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Satya\\.nuget\\packages\\materialdesigncolors\\1.2.6\\materialdesigncolors.1.2.6.nupkg.sha512",
-    "C:\\Users\\Satya\\.nuget\\packages\\materialdesignthemes\\3.1.3\\materialdesignthemes.3.1.3.nupkg.sha512",
-    "C:\\Users\\Satya\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\Satya\\.nuget\\packages\\restsharp\\106.11.4\\restsharp.106.11.4.nupkg.sha512",
-    "C:\\Users\\Satya\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+    "C:\\Users\\satyaranjanbiswal\\.nuget\\packages\\materialdesigncolors\\1.2.6\\materialdesigncolors.1.2.6.nupkg.sha512",
+    "C:\\Users\\satyaranjanbiswal\\.nuget\\packages\\materialdesignthemes\\3.1.3\\materialdesignthemes.3.1.3.nupkg.sha512",
+    "C:\\Users\\satyaranjanbiswal\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\satyaranjanbiswal\\.nuget\\packages\\restsharp\\106.11.4\\restsharp.106.11.4.nupkg.sha512",
+    "C:\\Users\\satyaranjanbiswal\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }
